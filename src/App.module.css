@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 0;
+
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #f7f7f7;
+  color: #010101;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}

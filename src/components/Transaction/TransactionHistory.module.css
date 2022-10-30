@@ -1,0 +1,35 @@
+.transaction_history {
+  width: 500px;
+  font-size: 12px;
+  text-align: center;
+  overflow: hidden;
+  border-collapse: collapse;
+  border: 1px solid rgba(128, 128, 128, 0.263);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 2px rgba(132, 132, 132, 0.5);
+}
+
+.table_heading {
+  height: 30px;
+  color: rgb(221, 231, 235);
+  background-color: rgba(114, 189, 251);
+  border: 1px solid rgba(208, 234, 247, 0.802);
+}
+
+.table_row {
+  height: 30px;
+  border: 1px solid rgba(208, 234, 247, 0.802);
+}
+
+.table_row:nth-child(even) {
+  background-color: rgba(202, 206, 208, 0.385);
+}
+
+.table_row:hover,
+.table_row:focus {
+  background-color: rgba(76, 174, 198, 0.383);
+}
+
+.table_data {
+  border: 1px solid rgba(208, 234, 247, 0.802);
+}
